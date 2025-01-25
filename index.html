@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cool Form Validation Demo</h1>
+  </header>
+  <main>
+    <form action="">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input required placeholder="Charlie" type="text" id="name" />
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input required placeholder="email@address.com" type="email" id="email" />
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input required placeholder="12+ characters" type="password" minlength="12" id="password" />
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" id="submit" title="Click me now!">Submit</button>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <p>
+      The input outline colours are done using CSS - focus, placeholder-shown, valid and invalid.
+      <br />
+      <br />
+      JavaScript is changing the colour of the submit button and setting the content of the alert.
+      <br />
+      <br />
+      <a href="" target="_blank">View the repo</a>
+    </p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
