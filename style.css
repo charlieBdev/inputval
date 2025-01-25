@@ -20,12 +20,20 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
+}
+
+header {
+  padding: 2rem;
 }
 
 h1 {
   text-align: center;
+}
+
+h1, p {
+  margin: 0;
 }
 
 form {
@@ -95,8 +103,12 @@ button:hover {
   background-color: var(--clr-error)
 }
 
-
 footer {
   margin-top: auto;
   padding: 2rem;
+  text-align: center;
+}
+
+p {
+  text-align: start;
 }
